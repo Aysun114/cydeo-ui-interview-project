@@ -1,0 +1,20 @@
+
+
+TC#1:
+     1- Go to the url = https://seleniumpractise.blogspot.com/2016/08/how-to-handle-calendar-in-selenium.html
+     2- Click on Date input area
+     3- Get all elements(td) of calendar table using findElements method
+     4- Get the text of all elements(td) of calendar table
+     5- Click 12. day of month
+     6- Verify date of "2/7/2025" has been entered in input area.
+
+TC#2:
+     1. Go to https://practice.expandtesting.com/tooltips
+     2. Verify tooltip for the element "Tooltip on bottom" is displayed correctly.
+
+TC#3:
+     1. Go to  "https://www.globalsqa.com/demo-site/draganddrop/"
+     2. Locate "High Tatras" and "High Tatras 2" as sources and  "Trash" as target elements
+     3. Drag and Drop "High Tatras" and "High Tatras 2" into "Trash"
+     4. Verify 2 images moved to the trash
+
