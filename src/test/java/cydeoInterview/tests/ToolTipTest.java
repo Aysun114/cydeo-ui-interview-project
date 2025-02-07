@@ -19,5 +19,7 @@ public class ToolTipTest {
         WebElement toolTip = Driver.getDriver().findElement(By.id("btn3"));
 
         Assert.assertEquals(toolTip.getAttribute("title"),"Tooltip on bottom");
+
+        Driver.closeDriver();
     }
 }
